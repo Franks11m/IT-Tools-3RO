@@ -35,6 +35,8 @@ definidos en JSON, que solo puede hablar de cosas simples como cadenas y listas.
 
 ## Escribir en una API
 
+<img src = "Img/Captura de pantalla 2024-07-15 010238.png" width = "500">
+
 ¿Cómo usaría la API para publicar un mensaje en el microblog? Esto es lo que dice la especificación de Collection+JSON:
 
 > Para crear un nuevo elemento en la colección, el cliente primero utiliza el objeto `template` para componer
