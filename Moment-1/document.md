@@ -1,3 +1,4 @@
+´´´
 "href" : "http://www.youtypeitwepostit.com/api/",
 "items" : [
 { "href" : "http://www.youtypeitwepostit.com/api/messages/21818525390699506",
@@ -9,6 +10,7 @@
 },
 ...
 }
+´´´
 Mira el documento en su totalidad, y el propósito de todas estas restricciones se vuelve claro.
 Collection+JSON es una forma de servir listas, pero no listas de estructuras de datos, que puedes
 hacer con JSON normal, sino listas que describen recursos HTTP.
