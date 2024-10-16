@@ -1,4 +1,4 @@
-´´´
+```
 "href" : "http://www.youtypeitwepostit.com/api/",
 "items" : [
 { "href" : "http://www.youtypeitwepostit.com/api/messages/21818525390699506",
@@ -10,17 +10,19 @@
 },
 ...
 }
-´´´
+```
 Mira el documento en su totalidad, y el propósito de todas estas restricciones se vuelve claro.
 Collection+JSON es una forma de servir listas, pero no listas de estructuras de datos, que puedes
 hacer con JSON normal, sino listas que describen recursos HTTP.
 El objeto collection tiene una propiedad `href`, y su valor es una cadena JSON. Pero no es
 cualquier cadena, es la URL a la que acabo de enviar una solicitud GET:
+```
 { "collection":
 {
 "href" : "http://www.youtypeitwepostit.com/api/"
 }
 }
+```
 El estándar de Collection+JSON define esta cadena como "la dirección utilizada para recuperar una
 representación del documento" (en otras palabras, es la URL del recurso de la colección). Cada objeto dentro de la lista de `items` de la colección tiene su propia propiedad `href`, y cada
 valor es una cadena que contiene una URL, como http://www.youtypeitwepostit.com/api/messages/
