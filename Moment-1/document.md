@@ -35,7 +35,7 @@ definidos en JSON, que solo puede hablar de cosas simples como cadenas y listas.
 
 ## Escribir en una API
 
-<img src = "img/portada_api.png" width = "500">
+<img src="Img/Captura de pantalla 2024-06-28 172619.png" alt="drawing" width="500"/>
 
 ¿Cómo usaría la API para publicar un mensaje en el microblog? Esto es lo que dice la especificación de Collection+JSON:
 
