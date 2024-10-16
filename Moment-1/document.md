@@ -37,7 +37,7 @@ definidos en JSON, que solo puede hablar de cosas simples como cadenas y listas.
 
 ¿Cómo usaría la API para publicar un mensaje en el microblog? Esto es lo que dice la especificación de Collection+JSON:
 
-Para crear un nuevo elemento en la colección, el cliente primero utiliza el objeto `template` para componer
+> Para crear un nuevo elemento en la colección, el cliente primero utiliza el objeto `template` para componer
 una representación válida del elemento y luego utiliza HTTP POST para enviar esa representación al
 servidor para su procesamiento.
 
